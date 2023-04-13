@@ -2,6 +2,10 @@
 cursor:url(/modules/bbg-ui/img/pointer.webp), auto;
 }*/
 
+button {
+height:20px;
+}
+
 #logo {
 height:90px;
 width:100px;
@@ -491,10 +495,11 @@ background: url(/modules/bbg-ui/img/bg-chat.webp);
 color: #FFF;
 }
 
-
-
-
-/*
+.sidebar-popout {
+background-repeat:no-repeat;
+background-size:100% 100%!important;
+background-image:url(/modules/bbg-ui/img/sidebar.jpg)!important;
+}
 
 .directory .action-buttons button {
 background-color:#000;
@@ -514,260 +519,19 @@ flex-basis:auto;
 text-shadow:1px 1px #000;
 }
 
-
-
-#combat-controls .combat-control {
-background-image:url(/modules/bbg-ui/img/key.png);
-text-align:center;
-background-position:center!important;
-background-size:260px 100%!important;
-background-repeat:no-repeat;
+.playlists-sidebar .playlist {
+padding: 2px 8px 2px 8px;
 }
 
-#combat-popout .directory-list {
-font-size:x-small;
-background-repeat:no-repeat;
-background-size:100% 100%!important;
-background-image:url(/modules/bbg-ui/img/directory.webp)!important;
+li.compendium-folder > .compendium-folder-header {
+padding: 2px 8px 2px 8px			!important;
 }
 
-
-
-.header-search {
-padding-bottom:8px;
+.subdirectory .compendium-pack {
+padding-top: 2px !important;
+padding-bottom: 2px !important;
 }
 
-.sidebar-tab .directory-footer button {
-background-image:url(/modules/bbg-ui/img/bt-retang.webp);
-text-align:center;
-background-position:center!important;
-background-size:100% 100%!important;
-background-repeat:no-repeat;
-padding-top:5px;
-margin-top:5px;
-border:0 solid #b5b3a4;
-color:#000;
-width:100%;
-height:35px!important;
-flex-shrink:1;
-flex-grow:1;
-flex-basis:auto;
-text-shadow:2px 2px #000;
+.settings-sidebar button {
+    margin: 1px 0;
 }
-
-.create-entity button::after {
-content:"+ Entry";
-}
-
-.directory .directory-list {
-padding:10px!important;
-}
-
-.directory-item {
-background:url(/modules/bbg-ui/img/bg-message.webp);
-background-size:100% 100%;
-color:#000;
-font-weight:400;
-padding-left:15px;
-text-shadow:2px 2px 3px #FFF;
-}
-
-.folder-header {
-border:transparent;
-}
-
-.ownership-viewer {
-display:block!important;
-}
-
-#sidebar #sidebar-tabs i.fa-share-alt {
-color:#000!important;
-background:red!important;
-}
-
-.sidebar-tab .folder .folder-header {
-background:url(/modules/bbg-ui/img/bt-retang.webp)!important;
-text-align:left!important;
-background-position:center!important;
-background-size:100% 100%!important;
-background-repeat:no-repeat!important;
-width:100%;
-height:35px!important;
-padding-top:5px;
-padding-bottom:5px;
-color:#000!important;
-font-size:1em;
-padding-left:35px!important;
-margin-right:0!important;
-text-shadow:2px 2px #FFF;
-}
-
-.sidebar-tab .directory-list .directory.item h3 {
-text-align:left!important;
-padding-left:25px;
-flex:unset;
-}
-
-.sidebar-tab .directory-list .directory-item h3,.sidebar-tab .directory-list .directory-item h4 {
-white-space:nowrap;
-overflow:hidden;
-flex:unset;
-margin:0;
-}
-
-#sidebar section.sidebar-directory ol.directory-list li.directory-item.folder header {
-align-items:baseline;
-text-align:left!important;
-padding-left:25px;
-color:red;
-}
-
-.subdirectory .folder {
-border-left:2px solid #585858!important;
-}
-
-li.folder > .folder-header h3 {
-color:#000;
-line-height:24px;
-margin:0;
-}
-
-li.folder>.folder-header .create-folder {
-text-align:right;
-color:#CCC;
-font-size:14px;
-padding-left:5px;
-}
-
-li.folder>.folder-header .create-entity {
-flex:unset;
-text-align:right;
-color:#CCC;
-font-size:14px;
-padding-left:5px;
-}
-
-#actors ol.directory-list {
-padding-left:10px;
-}
-
-#actors li.directory-item .document .actor {
-padding-left:30px!important;
-}
-
-.thumbnail {
-flex:0 0 10px!important;
-color:#000!important;
-}
-
-#compendium h3 {
-text-align:left;
-position:relative;
-height:35px!important;
-top:7px;
-padding-top:10px;
-padding-left:45px;
-background-image:url(/modules/bbg-ui/img/bt-retang.webp)!important;
-background-position-x:0;
-background-size:100% 100%!important;
-background-position-y:0;
-background-position:initial;
-color:#eeede0;
-text-shadow:2px 2px 4px #000;
-}
-
-#compendium ol.compendium-list {
-padding-left:25px;
-}
-
-#compendium .compendium-footer {
-color:#fff;
-text-shadow:2px 2px 4px #000;
-}
-
-.fa-folder-plus:before {
-padding-left:10px;
-margin-top:7px;
-}
-
-.fa-user-plus:before {
-padding-left:15px;
-margin-top:7px;
-}
-
-.fa-atlas:before {
-padding-left:10px;
-margin-top:7px;
-vertical-align:middle;
-}
-
-.compendium-folder-header > .create-folder {
-color:#FFF;
-margin-top:7px;
-margin-right:5px;
-}
-
-li.compendium-folder > .compendium-folder-header .create-entity-c {
-margin-top:7px;
-}
-
-
-h3.noborder,.fa-lock:before,.fa-share-alt:before,.fa-share-nodes:before,.playlists-sidebar .sound-control {
-color:#000;
-}
-
-
-.message-timestamp,#chat-controls .control-buttons {
-color:#FFF;
-}
-
-#sidebar .sidebar-tab #chat-controls div.roll-type-select select,.sidebar-tab .directory-header .header-search input {
-font-family:CaslonPro;
-font-weight:500;
-font-size:14px;
-text-align:left;
-position:relative;
-height:24px;
-top:7px;
-padding-top:3px;
-background:url(/modules/bbg-ui/img/bg-chat.webp) repeat;
-background-position-x:0;
-background-position-y:0;
-background-position:initial;
-box-shadow:inset 0 0 10px #000;
-border-image-width:4px;
-border-image-outset:3px 2px 2px 2px;
-color:#520000;
-}
-
-.fa-search,.fa-sort-amount-up {
-color:#B8860B;
-}
-
-.folder,.folder.collapsed {
-background:transparent!important;
-border:transparent;
-}
-
-.sidebar-tab .directory-footer button.create-entity,.sidebar-tab .directory-footer button.create-folder,.sidebar-tab .directory-footer button.quest-log-btn,.sidebar-tab .directory-footer button.create-pdf {
-width:100%;
-flex-shrink:1;
-flex-grow:1;
-flex-basis:auto;
-}
-
-
-
-
-
-/******* DUNNO ///////*
-  
-#sidebar-tabs > a:nth-child(n):hover {
-text-shadow:0 0 2px #7c7c7c40;
-}
-
-.sidebar-tab .directory-list {
-font-size:small;
-}
-
- */
