@@ -6,6 +6,21 @@ button {
 height:20px;
 }
 
+input[type="text"], 
+input[type="number"], 
+input[type="password"], 
+input[type="date"], 
+input[type="time"], 
+input[type="search"] {
+color: #FFF							!important;
+background: #000000c0				!important;
+}
+
+form .notes {
+color: #b3b3b3						!important;
+}
+
+
 #logo {
 height:90px;
 width:100px;
@@ -534,4 +549,14 @@ padding-bottom: 2px !important;
 
 .settings-sidebar button {
     margin: 1px 0;
+}
+
+.window-app .window-content {
+background: none;
+color: #FFF ;
+padding: 2px 8px 2px 8px			!important;
+}
+
+.window-app .window-content button{
+color: #FFF ;
 }
