@@ -15,7 +15,7 @@
   "url": "https://github.com/LGMart/FoundryVTT-bbg-ui",
   "manifest": "https://raw.githubusercontent.com/LGMart/FoundryVTT-bbg-ui/main/module.json",
   "compatibility": {
-    "verified": "10",
+    "verified": "11",
     "minimum": "10"
   },
   "download": "https://github.com/LGMart/FoundryVTT-bbg-ui/raw/main/bbg-ui.zip"
