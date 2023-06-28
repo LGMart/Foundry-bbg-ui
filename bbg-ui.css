@@ -30,8 +30,8 @@ margin: 0px 15px 0px 0px;
 
 #pause {
 margin: 0px 0px 0px 0px;
-top:1%													!important;
-left:-40%													!important;
+/* top:1%													!important;
+left:-40%													!important; */
 background:none;
 font-size: 7px;
 }
